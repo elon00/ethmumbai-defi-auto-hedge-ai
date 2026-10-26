@@ -1,0 +1,27 @@
+{
+  "mcpServers": {
+    "ethmumbai-defi-auto-hedge-ai": {
+      "command": "cargo",
+      "args": [
+        "run",
+        "--release",
+        "--quiet"
+      ],
+      "env": {
+        "RUST_LOG": "info",
+        "HACKATHON_TRACK": "Arbitrum / Ethereum L2",
+        "PROJECT_TICKER": "EMHEDGE"
+      },
+      "tools": [
+        {
+          "name": "verify_emhedge_invariants",
+          "description": "Verifies deterministic invariants for ETHMumbai DeFi Auto-Hedge AI on Arbitrum / Ethereum L2."
+        },
+        {
+          "name": "execute_emhedge_action",
+          "description": "Executes authenticated DeFi state transition."
+        }
+      ]
+    }
+  }
+}

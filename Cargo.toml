@@ -1,0 +1,9 @@
+[package]
+name = "ethmumbai-defi-auto-hedge-ai"
+version = "1.0.0"
+edition = "2021"
+authors = ["Martin Luther <martinlutherupa1@gmail.com>"]
+description = "Automated impermanent loss hedging protocol"
+license = "MIT"
+
+[dependencies]
